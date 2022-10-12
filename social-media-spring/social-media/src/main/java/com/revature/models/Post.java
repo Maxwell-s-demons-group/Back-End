@@ -27,4 +27,6 @@ public class Post {
 	private Set<User> likes;
 	@ManyToOne
 	private User author;
+
+
 }

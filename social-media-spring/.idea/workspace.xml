@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca43622a-7970-4062-ac81-0f90ff16a137" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/social-media-spring-backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/models/Profanity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/repositories/ProfanityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/services/ProfanityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/java/com/revature/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/java/com/revature/controllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/controllers/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/java/com/revature/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/models/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/java/com/revature/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/java/com/revature/services/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-media/src/main/java/com/revature/services/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-media/src/main/resources/dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/social-media/src/main/resources/dev.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FjCtgb44voRht4QEQye6t9QPqO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/LovingRahman/OneDrive/Desktop/Back-End/social-media-spring"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca43622a-7970-4062-ac81-0f90ff16a137" name="Changes" comment="" />
+      <created>1664996322641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664996322641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
