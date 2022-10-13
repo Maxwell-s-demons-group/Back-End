@@ -15,7 +15,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/auth")
 @CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
-//@CrossOrigin(origins = "*")
+
 public class AuthController {
 
     private final AuthService authService;
@@ -51,7 +51,10 @@ public class AuthController {
                 registerRequest.getEmail(),
                 registerRequest.getPassword(),
                 registerRequest.getFirstName(),
-                registerRequest.getLastName());
+                registerRequest.getLastName(),
+                registerRequest.getAddress(),
+                registerRequest.getPhonenumber(),
+                registerRequest.getRole());
 
         return ResponseEntity.status(HttpStatus.CREATED).body(authService.register(created));
     }
