@@ -52,7 +52,9 @@ public class PostController {
         // fillters out posts for bad language
         post = profanityService.postFillter(post);
 
-        post = profanityService.commentFillter(post);
+        if(post != null){
+            post = profanityService.commentFillter(post);
+        }
 
 
 //        return ResponseEntity.ok(this.postService.upsert(post));
