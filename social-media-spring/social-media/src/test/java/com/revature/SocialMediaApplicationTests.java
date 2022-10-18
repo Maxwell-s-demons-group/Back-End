@@ -1,5 +1,7 @@
 package com.revature;
 
+import com.revature.models.Post;
+import com.revature.services.ProfanityService;
 import com.revature.models.User;
 import com.revature.repositories.UserRepository;
 import org.junit.jupiter.api.Test;
