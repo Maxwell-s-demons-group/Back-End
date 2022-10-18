@@ -109,5 +109,26 @@ class SocialMediaApplicationTests {
 		assertEquals(post1, post1);
 
 	}
+	
+	@Test
+	void checkLike(){
+
+		Post post1 = new Post();
+		Post post2 = new Post();
+		post1.setText("goodbye");
+		postService.upsert(post1);
+		System.out.println(post1);
+		User user1 = new User();
+		user1.setFirstName("Henry");
+
+		Set<User> likes = new HashSet<>();
+		likes.add(user1);
+	
+		post1.setLikes(likes);
+		postService.upsert(post1);
+		System.out.println(post1);
+		assertEquals(1, post1.getLikes().size());
+
+	}
 
 }
