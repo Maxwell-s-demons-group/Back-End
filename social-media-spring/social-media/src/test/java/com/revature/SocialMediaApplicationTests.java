@@ -1,12 +1,17 @@
 package com.revature;
 
 import com.revature.models.Post;
-import com.revature.services.ProfanityService;
 import com.revature.models.User;
 import com.revature.repositories.UserRepository;
+import com.revature.services.PostService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
