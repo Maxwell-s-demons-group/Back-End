@@ -23,7 +23,7 @@ public class Post {
 	private String imageUrl;
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<Post> comments;
-	@ManyToMany
+	@ManyToMany(cascade = CascadeType.ALL)
 	private Set<User> likes;
 	@ManyToOne
 	private User author;
