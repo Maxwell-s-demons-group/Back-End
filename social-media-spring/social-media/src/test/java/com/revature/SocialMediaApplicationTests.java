@@ -12,37 +12,35 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 class SocialMediaApplicationTests {
-@Autowired
+	@Autowired
 	UserRepository userRepository;
 	
 	@Autowired
 	ProfanityService profanityService;
 	
+	static User user = new User();
+	static String firstname = "Beo";
+	static String lastname = "Van";
+	@BeforeAll
+	static void createUser(){
+
+		user.setFirstName(firstname);
+		user.setLastName(lastname);
+		}
 	@Test
 	void usesearchStringTestFirstName() {
-		String firstname = "Huy";
+		userRepository.save(user);
 
-
-
-		assertEquals(userRepository.findByFirstName(firstname),userRepository.findByString(firstname));
+		assert(userRepository.findByString(firstname).contains(user));
 
 	}
 	@Test
 	void usesearchStringTestLastName(){
-		String lastname = "Van";
 
-
-
-
-		assertEquals(userRepository.findByLastName(lastname),userRepository.findByString(lastname));
-
+		userRepository.save(user);
+		assert(userRepository.findByString(lastname).contains(user));
 	}
-	@Test
-	void usesearchStringTestEmail(){
-		String email ="admin@gmail.com";
-
-		assertEquals(userRepository.findByEmail(email), userRepository.findByString(email));
-	}
+	
 	
 	@Test
 	void profannityPostTest() {
